@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NES.Catalogo.API.props" />
+</Project>

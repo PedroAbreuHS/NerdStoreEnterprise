@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5yNdW1ZsM9xnV/p3WQqmXtGaRjgZOOaCtC89i13BkEc=",
+  "Source": "NES.Pagamento.API",
+  "BasePath": "_content/NES.Pagamento.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

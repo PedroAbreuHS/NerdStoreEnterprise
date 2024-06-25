@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ksnxdDBnoikWQmGkRrEVHZ+J0Gd5s5DO+7qAy9s5vcA=",
+  "Source": "NES.Catalogo.API",
+  "BasePath": "_content/NES.Catalogo.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

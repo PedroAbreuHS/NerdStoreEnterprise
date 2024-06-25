@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7HDPHMGUkiUbRdE/wVdX7lnCz5LDzzMeV8WOYWe8IcM=",
+  "Source": "NES.Cliente.API",
+  "BasePath": "_content/NES.Cliente.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

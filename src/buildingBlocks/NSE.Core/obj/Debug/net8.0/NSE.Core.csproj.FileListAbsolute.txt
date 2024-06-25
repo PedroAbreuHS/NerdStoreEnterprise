@@ -1,0 +1,12 @@
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\bin\Debug\net8.0\NSE.Core.deps.json
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\bin\Debug\net8.0\NSE.Core.dll
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\bin\Debug\net8.0\NSE.Core.pdb
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\NSE.Core.AssemblyInfoInputs.cache
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\NSE.Core.AssemblyInfo.cs
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\NSE.Core.csproj.CoreCompileInputs.cache
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\NSE.Core.sourcelink.json
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\NSE.Core.dll
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\refint\NSE.Core.dll
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\NSE.Core.pdb
+C:\Temp\Projetos_Csharp\DesenvolvedorIO\NerdStoreEnterprise\src\buildingBlocks\NSE.Core\obj\Debug\net8.0\ref\NSE.Core.dll
