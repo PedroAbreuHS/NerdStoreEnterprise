@@ -13,7 +13,7 @@ namespace NSE.Identidade.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
@@ -29,12 +29,10 @@ namespace NSE.Identidade.API.Controllers
         }
 
 
-
-
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Registrar(UserRegisterViewModel userRegisterViewModel)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var user = new IdentityUser
             {
@@ -47,29 +45,28 @@ namespace NSE.Identidade.API.Controllers
 
             if (result.IsCompletedSuccessfully)
             {
-                await _signInManager.SignInAsync(user, false);
-                return Ok(await GerarJwt(userRegisterViewModel.Email));
+                return CustomResponse(await GerarJwt(userRegisterViewModel.Email));
             }
 
-            return BadRequest();
+            return CustomResponse();
         }
+
 
         [HttpPost("autenticar")]
         public async Task<ActionResult> Login(UserLoginViewModel userLoginViewModel)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result = _signInManager.PasswordSignInAsync(userLoginViewModel.Email, userLoginViewModel.Senha, false, true);
 
             if (result.IsCompletedSuccessfully)
             {
-                return Ok(await GerarJwt(userLoginViewModel.Email));
+                return CustomResponse(await GerarJwt(userLoginViewModel.Email));
             }
 
-            return BadRequest();
+            AdicionarErroProcessamento("Usuário ou senha incorretos.");
+            return CustomResponse();
         }
-
-
 
 
         //Processo para gerar o token
@@ -124,5 +121,6 @@ namespace NSE.Identidade.API.Controllers
 
         private static long ToUnixEpochDate(DateTime date)
             => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
+
     }
 }
